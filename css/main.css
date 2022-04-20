@@ -1,0 +1,284 @@
+footer{
+
+	border-top: 1px solid white;
+	height: 60px;
+}
+footer h5{
+	text-transform: none;
+	padding-top:20px ;
+}
+
+#logo {
+	width: 120px;
+	height: 80px;
+	
+}
+
+#biography-title {
+	margin-bottom: 20px;
+	font-family: 'Freckle Face', cursive;
+	  font-size: 38px;
+	  text-transform: uppercase;
+	  font-weight: 300;
+	  font-family: 'Freckle Face', cursive;
+	  cursor: grab;
+
+}
+.service-box a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+
+.service-box:hover {
+	color: black;
+}
+
+.concert-main {
+	width: 50%;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.concert-main p {
+	font-size: 20px;
+	font-family: 'Walter Turncoat', cursive;
+	letter-spacing: 2px;
+	font-weight: 50px;
+}
+
+.press-row{
+	padding: 5px;
+}
+
+.card{
+	padding-left: 0px;
+	padding-right: 0px;
+	color: black;
+	font-size: 13px;
+	border-radius: 10px;
+	filter: opacity(76%);
+}
+.card:hover{
+	filter: opacity(100%);
+}
+.card img{
+	border-radius: 10px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.card-title{
+	font-size: 14px;
+}
+.btn-primary{
+	font-size: 14px;
+	border: 1px solid #2596be;
+	text-transform: none;
+	height: 30px;
+	line-height: 30px;
+}
+.galerija{
+	margin-bottom: 80px;
+}
+.galerija img{
+	height: 190px;
+	width: 100%;
+
+}
+.btn-primary:hover{
+	border: 1px solid black;
+	color: white;
+
+	background-color: #2596be;
+}
+.article {
+	width: 80%;
+	height: 220px; 
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.article p {
+	padding-top: 25px;
+	font-size: 18px;
+	color: black;
+	font-family: 'Acme', sans-serif;
+	font-weight: 400px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.service-content .left-text h4 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  padding-top: 30px;
+  font-family: 'Freckle Face', cursive;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+.service-content .left-text .line-dec {
+  width: 45px;
+  height: 3px;
+  background-color: #ff7d27;
+  margin: 20px 0px 20px 0px;
+}
+
+.service-content .left-text p {
+  color: #fff;
+  text-align: justify;
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.service-content .left-text ul {
+  padding: 0;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.service-content .left-text ul li {
+  margin: 15px 0px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.service-content .left-text .primary-button {
+  margin: 30px 0px;
+}
+
+.service-content .service-item {
+  background-color: white;
+  text-align: center;
+  color:black;
+  margin-top: 21px;
+  width: 100%;
+  opacity: 78%;
+  border: 1px solid gray;  
+}
+.service-content .service-item .line-dec {
+  width: 45px;
+  height: 3px;
+  background-color: #ff7d27;
+  margin: 20px auto 15px auto;
+}
+
+.service-item {
+  color: white;
+  font-weight: 200px;
+}
+.service-item h4{
+	margin-top: 24px;
+}
+.album a{
+	text-decoration-line: none;
+}
+
+.album {
+	margin-bottom: 9px;
+	margin-left: 10px;
+	border-radius: 5px;
+	height: 180px;
+	width: 100%;
+}
+
+
+
+.send-btn {
+  font-family: 'Freckle Face', cursive;
+  letter-spacing: 1px;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 780px) {
+	.album{
+		height: 240px;
+		margin-top: 15px;
+	}
+	iframe{
+		height: 250px;
+	}
+	#logo {
+	width: 60px !important;
+	height: 40px !important;
+}
+.next-section{
+		display: none;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	.album{
+		height: 240px;
+		margin-top: 15px;
+	}
+	iframe{
+		height: 250px;
+	}
+	#logo {
+	width: 60px;
+	height: 40px;
+	
+}
+.next-section{
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+	
+	#name{
+		height: 40px;
+	}
+	#email{
+		height: 40px;
+	}
+}
+
+@media only screen and (max-width: 996px) {
+	
+	.social-icons{
+		display: none;
+	}
+	.album{
+		height: 450px;
+	}
+
+}
+
+
+@media only screen and (max-width: 770px) {
+	
+	#slidza{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		height:340px;
+	}
+	.album{
+		height: 200px;
+	}
+
+
+}
+
+
+}
+
+
+
+
+
+
+
